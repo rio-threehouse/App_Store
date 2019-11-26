@@ -14,7 +14,8 @@ export default class MainTitle extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    marginVertical: 5,
+    height: 50,
+    justifyContent: 'center',
   },
   title: {
     fontWeight: '700',
