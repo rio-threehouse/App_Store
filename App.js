@@ -6,6 +6,7 @@ import UserIcon from './components/UserIcon'
 import MainTitle from './components/MainTitle'
 import BlockstyleButton from './components/BlockstyleButton'
 import Divider from './components/Divider'
+import TermsLinkButton from './components/TermsLinkButton'
 
 export default class App extends React.Component {
   render() {
@@ -28,6 +29,7 @@ export default class App extends React.Component {
           <BlockstyleButton text='Apple IDに入金' />
         </View>
         <Divider />
+        <TermsLinkButton />
       </SafeAreaView>
     );
   }
