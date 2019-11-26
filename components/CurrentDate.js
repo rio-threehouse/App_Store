@@ -20,7 +20,7 @@ export default class CurrentDate extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    top: 25,
+    marginTop: 25,
   },
   date: {
     color: '#949495',

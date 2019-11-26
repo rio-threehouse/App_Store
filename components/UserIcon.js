@@ -16,7 +16,7 @@ export default class UserIcon extends React.Component {
 const styles = StyleSheet.create({
   container: {
     position: 'absolute',
-    top: 50,
+    top: 70,
     right: 0,
   },
   userIcon: {
