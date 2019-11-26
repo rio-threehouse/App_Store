@@ -1,14 +1,14 @@
 import React from 'react';
-import { StyleSheet, Image, View } from 'react-native';
+import { StyleSheet, Image, TouchableOpacity } from 'react-native';
 
 export default class UserIcon extends React.Component {
   render() {
     return (
-    <View style={styles.container}>
+    <TouchableOpacity style={styles.container}>
       <Image 
         style={styles.userIcon} 
         source={require('../assets/icoms/userIcom.png')} />
-    </View>
+    </TouchableOpacity>
     );
   }
 }
