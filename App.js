@@ -4,6 +4,7 @@ import { StyleSheet, SafeAreaView } from 'react-native';
 import CurrentDate from './components/CurrentDate'
 import UserIcon from './components/UserIcon'
 import MainTitle from './components/MainTitle'
+import BlockstyleButton from './components/BlockstyleButton'
 
 export default class App extends React.Component {
   render() {
@@ -19,6 +20,9 @@ export default class App extends React.Component {
           title='おすすめのストーリー'
           titlefontSize={{fontSize: 27}} />
         {/* おすすめのストーリーのリスト */}
+        <BlockstyleButton text='コードを使う' />
+        <BlockstyleButton text='ギフトを贈る' />
+        <BlockstyleButton text='Apple IDに入金' />
       </SafeAreaView>
     );
   }
