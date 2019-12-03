@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 
 export default class CurrentDate extends React.Component {
   render() {
@@ -11,17 +11,12 @@ export default class CurrentDate extends React.Component {
     const dayOfstr = [ "日", "月", "火", "水", "木", "金", "土" ][day];
     
     return (
-      <View style={styles.container}>
-        <Text style={styles.date}>{month}月{date}日 {dayOfstr}曜日</Text>
-      </View>
+      <Text style={styles.date}>{month}月{date}日 {dayOfstr}曜日</Text>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    marginTop: 25,
-  },
   date: {
     color: '#949495',
     fontWeight: 'bold',

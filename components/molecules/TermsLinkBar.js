@@ -1,8 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, Image, View, TouchableOpacity } from 'react-native';
+import { StyleSheet, Image, TouchableOpacity } from 'react-native';
 import { Linking } from 'expo';
 
-export default class TermsLinkButton extends React.Component {
+import TermsText from '../atoms/TermsText';
+
+export default class TermsLinkBar extends React.Component {
   _handlePressLink = () => {
     Linking.openURL('https://www.apple.com/legal/internet-services/itunes/');
   };
@@ -12,10 +14,10 @@ export default class TermsLinkButton extends React.Component {
       <TouchableOpacity
         style={styles.container}
         onPress={this._handlePressLink}>
-        <Text style={styles.text}>利用規約</Text>
+        <TermsText />
         <Image 
-          style={styles.brackeIcon} 
-          source={require('../assets/icoms/brackeIcon.png')} />
+          style={styles.icon} 
+          source={require('../../assets/icoms/arrowIcon.png')} />
       </TouchableOpacity>
     );
   }
@@ -27,13 +29,7 @@ const styles = StyleSheet.create({
     marginVertical: 17,
     alignItems: 'center',
   },
-  text: {
-    fontSize: 16,
-    color: '#97969c',
-  },
-  brackeIcon: {
-    width: 14,
-    height: 14,
-    marginLeft: 4,
+  icon: {
+    marginLeft: 9,
   }
 });

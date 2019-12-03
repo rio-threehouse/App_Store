@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity } from 'react-native';
 
-export default class BlockButton extends React.Component {
+export default class BlockstyleButton extends React.Component {
   render() {
     return(
       <TouchableOpacity
@@ -16,7 +16,6 @@ const styles = StyleSheet.create({
   button: {
     backgroundColor: '#f1f0f7',
     paddingVertical: 13,
-    marginVertical: 5,
     borderRadius: 10,
   },
   buttonText: {
