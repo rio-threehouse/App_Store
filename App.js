@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Today from './pages/Today';
+import TopToday from './pages/toppages/TopToday'
 
 export default class App extends React.Component {
   render() {
     return (
-      <Today />
+      <TopToday />
     );
   }
 }

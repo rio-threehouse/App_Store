@@ -1,13 +1,13 @@
 import React from 'react';
 import { StyleSheet, SafeAreaView } from 'react-native';
 
-import CurrentDate from '../atoms/CurrentDate';
-import Header from '../organisms/Header'
-import MainTitle from '../atoms/MainTitle'
-import Divider from '../atoms/Divider';
-import Footer from '../organisms/Footer'
+import CurrentDate from '../../atoms/CurrentDate';
+import Header from '../../organisms/Header';
+import MainTitle from '../../atoms/MainTitle';
+import Divider from '../../atoms/Divider';
+import Footer from '../../organisms/Footer';
 
-export default class App extends React.Component {
+export default class TopTodayTemplate extends React.Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
@@ -35,7 +35,4 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
     top: 45,
   },
-  todayContainer: {
-    top: 100,
-  }
 });
