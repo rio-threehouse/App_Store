@@ -23,7 +23,6 @@ export default class TopTodayTemplate extends React.Component {
         {/* おすすめのストーリーのリストをここに追加 */}
 
         <Footer />
-        {/* タブナビゲーションをここに追加 */}
       </SafeAreaView>
     );
   }

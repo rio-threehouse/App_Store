@@ -12,7 +12,6 @@ export default class TopArcadeTemplate extends React.Component {
         <Header />
 
         <TermsLinkBar />
-        {/* タブナビゲーションをここに追加 */}
       </SafeAreaView>
     );
   }

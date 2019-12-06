@@ -1,11 +1,11 @@
 import React from 'react';
 
-import TopToday from './pages/toppages/TopToday'
+import BottomTabNavigation from './components/organisms/BottomTabNavigation';
 
 export default class App extends React.Component {
   render() {
     return (
-      <TopToday />
+      <BottomTabNavigation />
     );
   }
 }

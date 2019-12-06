@@ -9,7 +9,6 @@ export default class TopSearchTemplate extends React.Component {
       <SafeAreaView style={styles.container}>
         <Header title='検索'/>
 
-        {/* タブナビゲーションをここに追加 */}
       </SafeAreaView>
     );
   }

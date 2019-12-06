@@ -13,7 +13,6 @@ export default class TopGameTemplate extends React.Component {
         <Divider />
 
         <Footer />
-        {/* タブナビゲーションをここに追加 */}
       </SafeAreaView>
     );
   }
