@@ -1,6 +1,7 @@
 import React from 'react';
-import { StyleSheet, Image, TouchableOpacity } from 'react-native';
+import { StyleSheet, TouchableOpacity } from 'react-native';
 import { Linking } from 'expo';
+import { Ionicons } from '@expo/vector-icons';
 
 import TermsText from '../atoms/TermsText';
 
@@ -15,9 +16,7 @@ export default class TermsLinkBar extends React.Component {
         style={styles.container}
         onPress={this._handlePressLink}>
         <TermsText />
-        <Image 
-          style={styles.icon} 
-          source={require('../../assets/icoms/arrowIcon.png')} />
+        <Ionicons name='ios-arrow-forward' style={styles.icon} />
       </TouchableOpacity>
     );
   }
@@ -30,6 +29,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   icon: {
-    marginLeft: 9,
+    color: '#d1d1d2',
+    fontSize: 15,
+    marginLeft: 7,
   }
 });

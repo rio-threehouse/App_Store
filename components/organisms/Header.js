@@ -23,6 +23,6 @@ const styles = StyleSheet.create({
   iconContainer: {
     position: 'absolute',
     right: 0,
-    top: 10,
+    top: 5,
   },
 });
