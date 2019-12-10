@@ -1,16 +1,14 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import MainTitle from '../atoms/MainTitle';
+import HeaderTitle from '../atoms/HeaderTitle';
 import UserIcon from '../atoms/UserIcon';
 
-export default class HeaderTitle extends React.Component {
+export default class Header extends React.Component {
   render() {
     return (
-      <View>
-        <MainTitle
-          title={ this.props.title } 
-          titlefontSize={{fontSize: 35}} />
+      <View style={styles.container}>
+        <HeaderTitle title={ this.props.title } />
           <View style={styles.iconContainer}>
             <UserIcon /> 
           </View>
@@ -20,6 +18,10 @@ export default class HeaderTitle extends React.Component {
 }
 
 const styles = StyleSheet.create({
+  container: {
+    height: 50,
+    justifyContent: 'center',
+  },
   iconContainer: {
     position: 'absolute',
     right: 0,

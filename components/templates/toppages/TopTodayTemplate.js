@@ -1,9 +1,9 @@
 import React from 'react';
-import { StyleSheet, SafeAreaView } from 'react-native';
+import { StyleSheet, SafeAreaView, View } from 'react-native';
 
 import CurrentDate from '../../atoms/CurrentDate';
 import Header from '../../organisms/Header';
-import MainTitle from '../../atoms/MainTitle';
+import ItemListTitle from '../../atoms/ItemListTitle';
 import Divider from '../../atoms/Divider';
 import Footer from '../../organisms/Footer';
 
@@ -17,9 +17,9 @@ export default class TopTodayTemplate extends React.Component {
 
         <Divider />
 
-        <MainTitle 
-          title='おすすめのストーリー'
-          titlefontSize={{fontSize: 27}} />
+        <View style={styles.itemTitleContainer} >
+          <ItemListTitle title='おすすめのストーリー' />
+        </View>
         {/* おすすめのストーリーのリストをここに追加 */}
 
         <Footer />
@@ -33,5 +33,9 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 20,
     top: 45,
+  },
+  itemTitleContainer: {
+    height: 50,
+    justifyContent: 'center',
   },
 });
