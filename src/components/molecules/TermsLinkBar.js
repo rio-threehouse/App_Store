@@ -3,7 +3,7 @@ import { StyleSheet, TouchableOpacity } from 'react-native';
 import { Linking } from 'expo';
 import { Ionicons } from '@expo/vector-icons';
 
-import TermsText from '../atoms/TermsText';
+import TermsText from '../atoms/texts/TermsText';
 
 export default class TermsLinkBar extends React.Component {
   _handlePressLink = () => {

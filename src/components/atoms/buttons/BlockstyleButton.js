@@ -6,7 +6,7 @@ export default class BlockstyleButton extends React.Component {
     return(
       <TouchableOpacity
         style={styles.button}>
-        <Text style={styles.buttonText}>{this.props.text}</Text>
+        <Text style={styles.text}>{this.props.text}</Text>
       </TouchableOpacity>
     );
   }
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     paddingVertical: 13,
     borderRadius: 10,
   },
-  buttonText: {
+  text: {
     fontSize: 16,
     fontWeight: 'bold',
     color: '#007afe',

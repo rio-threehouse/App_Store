@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyleSheet, SafeAreaView, View } from 'react-native';
 
-import CurrentDate from '../../atoms/CurrentDate';
+import CurrentDate from '../../atoms/texts/CurrentDate';
 import Header from '../../organisms/Header';
-import ItemListTitle from '../../atoms/ItemListTitle';
+import ItemListTitle from '../../atoms/titles/CardListTitle';
 import Divider from '../../atoms/Divider';
 import Footer from '../../organisms/Footer';
 

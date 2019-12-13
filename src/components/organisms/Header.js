@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import HeaderTitle from '../atoms/HeaderTitle';
+import HeaderTitle from '../atoms/titles/HeaderTitle';
 import UserIcon from '../atoms/UserIcon';
 
 export default class Header extends React.Component {

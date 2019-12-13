@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
-import FooterButtonList from '../molecules/FooterButtonList';
+import FooterButtonList from '../molecules/buttons/FooterButtonList';
 import TermsLinkBar from '../molecules/TermsLinkBar';
 import Divider from '../atoms/Divider';
 

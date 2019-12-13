@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import BlockstyleButton from '../atoms/BlockstyleButton';
+import BlockstyleButton from '../../atoms/buttons/BlockstyleButton';
 
 export default class FooterButtonList extends React.Component {
   render() {
