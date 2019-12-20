@@ -1,0 +1,38 @@
+[
+  {
+    "key": "1",
+    "title": "Adobe Acrobat Reader",
+    "summary": "ドキュメントの変換、保存、編集",
+    "installButton": "開く"
+  },
+  {
+    "key": "2",
+    "title": "Adobe Scan: OCR付PDFスキャン",
+    "summary": "書類や名刺、ホワイトボードを作成",
+    "installButton": "入手"
+  },
+  {
+    "key": "3",
+    "title": "codebelle-スキマ時間でプログラミング勉強-",
+    "summary": "スキマ時間で学ぶプログラミング",
+    "installButton": "入手"
+  },
+  {
+    "key": "4",
+    "title": "アルゴリズム図鑑",
+    "summary": "見て分かる、試して分かるアルゴリズム",
+    "installButton": "¥120"
+  },
+  {
+    "key": "5",
+    "title": "ドラゴンクエストウォーク",
+    "summary": "さあ、ぼうけんにでかけよう",
+    "installButton": "入手"
+  },
+  {
+    "key": "6",
+    "title": "モンスターファーム",
+    "summary": "伝説の育成ゲーム",
+    "installButton": "¥1,960"
+  }
+]
