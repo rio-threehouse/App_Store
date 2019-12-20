@@ -4,7 +4,7 @@ import { StyleSheet, Text } from 'react-native';
 export default class CardListTitle extends React.Component {
   render() { 
     return (
-      <Text style={styles.text}>{this.props.title}</Text>
+      <Text style={styles.text}>{this.props.cardListTitle}</Text>
     );
   }
 }

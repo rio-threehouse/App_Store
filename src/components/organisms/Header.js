@@ -6,9 +6,10 @@ import UserIcon from '../atoms/UserIcon';
 
 export default class Header extends React.Component {
   render() {
+    const { headerTitle } = this.props;
     return (
       <View style={styles.container}>
-        <HeaderTitle title={ this.props.title } />
+        <HeaderTitle headerTitle={ headerTitle } />
           <View style={styles.iconContainer}>
             <UserIcon /> 
           </View>

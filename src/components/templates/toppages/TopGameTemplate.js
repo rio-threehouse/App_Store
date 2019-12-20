@@ -9,7 +9,7 @@ export default class TopGameTemplate extends React.Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
-        <Header title='ゲーム'/>
+        <Header headerTitle='ゲーム'/>
         <Divider />
 
         <Footer />

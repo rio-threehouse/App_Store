@@ -6,7 +6,7 @@ export default class BlockstyleButton extends React.Component {
     return(
       <TouchableOpacity
         style={styles.button}>
-        <Text style={styles.text}>{this.props.text}</Text>
+        <Text style={styles.text}>{this.props.blockstyleButton}</Text>
       </TouchableOpacity>
     );
   }

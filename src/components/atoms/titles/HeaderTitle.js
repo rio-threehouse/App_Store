@@ -4,7 +4,7 @@ import { StyleSheet, Text } from  'react-native';
 export default class HeaderTitle extends React.Component {
   render() {
     return (
-      <Text style={styles.title}>{this.props.title}</Text>
+      <Text style={styles.title}>{this.props.headerTitle}</Text>
     );
   }
 }

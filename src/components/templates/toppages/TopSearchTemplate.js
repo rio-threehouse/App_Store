@@ -7,7 +7,7 @@ export default class TopSearchTemplate extends React.Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
-        <Header title='検索'/>
+        <Header headerTitle='検索'/>
 
       </SafeAreaView>
     );

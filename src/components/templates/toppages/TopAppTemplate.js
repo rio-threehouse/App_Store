@@ -9,7 +9,7 @@ export default class TopAppTemplate extends React.Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
-        <Header title='App'/>
+        <Header headerTitle='App'/>
         <Divider />
 
         <Footer />
